@@ -18,11 +18,11 @@ app.controller('MainController', ['$scope', function($scope)
 
 	$scope.coder="CODER";
 
-	$scope.c_plus_plus="{{ C++ }}";
+	$scope.c_plus_plus="{ C++ }";
 
-	$scope.latex="{{ LaTeX }}";
+	$scope.latex="{ LaTeX }";
 
-	$scope.web_development="{{ Web Development }}";
+	$scope.web_development="{ Web Development }";
 
 	$scope.resume="RÉSUMÉ";
 
