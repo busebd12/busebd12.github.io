@@ -1,29 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
+	
 	<head>
-		<!-- Required meta tags -->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    	<!-- Bootstrap CSS -->
-    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta charset="utf-8">
 
-    	<!--Font awesome links for icons-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Brendan Busey</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!--Font awesome links for icons-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 		<!--personal style sheets-->
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+
         <link rel="stylesheet" type="text/css" href="./css/hover.css">
 
-        <title>Brendan Busey</title>
 	</head>
 
-	<body ng-app="website">
+	<body ng-app="myApp">
+
+		<header>
+			
+				<nav class="navbar navbar-default navbar-static-top">
+
+					<div class="container">
+
+						<div class="navbar-header">
+
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+									<span class="sr-only">Toggle navigation</span>
+
+									<span class="icon-bar"></span>
+
+									<span class="icon-bar"></span>
+
+									<span class="icon-bar"></span>
+
+								</button>
+
+						</div>
+
+						<div class="navbar-options" ng-controller="MainController">
+
+							<ul class="options-list">
+								
+								<div class="home">
+
+									<a id="home-link" href="./"><button class="button hvr-float home-button"> {{ home_button }} </button></a>
+
+								</div>
+
+								<div class="about">
+
+									<a ng-href="#about-me-content"><button class="button hvr-float about-me-button">{{ about_me_button }}</button></a>
+
+								</div>
+
+								<div class="coder">
+
+									<a ng-href="#content"><button class="button hvr-float coder-button">{{ coder_button }}</button></a>
+
+								</div>
+
+								<div class="resume">
+
+									<a ng-href="#resume"><button class="button hvr-float resume-button">{{ resume_button }}</button></a>
+
+								</div>
+
+								<div class="site">
+
+									<a ng-href="https://github.com/busebd12/busebd12.github.io"><button class="button hvr-float this-site-button">{{ this_site_button }}</button></a>
+
+								</div>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+                    	</nav>
+
+		</header>
 
 		<main>
 
@@ -261,7 +335,7 @@
 
 	    <!-- Controllers -->
 	    <script src="./js/controllers/MainController.js"></script>
-	</body>
 
+	</body>
 
 </html>
