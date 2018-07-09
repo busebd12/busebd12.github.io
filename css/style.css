@@ -5,6 +5,13 @@
 	background-size: cover;
 }
 
+#name
+{
+	text-align: center;
+
+	font-family: 'Source Code Pro', serif
+}
+
 /*
 .about-me {
   width: 100%;
