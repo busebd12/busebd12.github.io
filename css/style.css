@@ -5,6 +5,11 @@
 	background-size: cover;
 }
 
+#name-container
+{
+	position: absolute;
+}
+
 #name
 {
 	text-align: center;
