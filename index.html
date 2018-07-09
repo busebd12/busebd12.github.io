@@ -1,326 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
-	
 	<head>
+		<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta charset="utf-8">
+    	<!-- Bootstrap CSS -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<title>Brendan Busey</title>
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-		<!--Font awesome links for icons-->
+    	<!--Font awesome links for icons-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
-
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 		<!--personal style sheets-->
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/hover.css">
 
-            <link rel="stylesheet" type="text/css" href="./css/hover.css">
-
+        <title>Brendan Busey</title>
 	</head>
 
-	<body ng-app="myApp">
+	<body ng-app="website">
+		<header></header>
 
-		<header>
-			
-				<nav class="navbar navbar-default navbar-static-top">
 
-					<div class="container">
-
-						<div class="navbar-header">
-
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-									<span class="sr-only">Toggle navigation</span>
-
-									<span class="icon-bar"></span>
-
-									<span class="icon-bar"></span>
-
-									<span class="icon-bar"></span>
-
-								</button>
-
-						</div>
-
-						<div class="navbar-options" ng-controller="MainController">
-
-							<ul class="options-list">
-								
-								<div class="home">
-
-									<a id="home-link" href="./"><button class="button hvr-float home-button"> {{ home_button }} </button></a>
-
-								</div>
-
-								<div class="about">
-
-									<a ng-href="#about-me-content"><button class="button hvr-float about-me-button">{{ about_me_button }}</button></a>
-
-								</div>
-
-								<div class="coder">
-
-									<a ng-href="#content"><button class="button hvr-float coder-button">{{ coder_button }}</button></a>
-
-								</div>
-
-								<div class="resume">
-
-									<a ng-href="#resume"><button class="button hvr-float resume-button">{{ resume_button }}</button></a>
-
-								</div>
-
-								<div class="site">
-
-									<a ng-href="https://github.com/busebd12/busebd12.github.io"><button class="button hvr-float this-site-button">{{ this_site_button }}</button></a>
-
-								</div>
-
-							</ul>
-
-						</div>
-
-					</div>
-
-                    	</nav>
-
-		</header>
-
-		<main>
-
-			<section class="container-fluid" ng-controller="MainController">
-
-				<div class="about-me">
-
-					<h1 class="about-me-title"> {{ aboutMe }}</h1>
-
-					<div id="about-me-content">
-
-						<br>
-
-						<div class="panel panel-default">
-
-							<div class="panel-body">
-
-								<h1 class="typeit-box" style="text-align: center; font-family: 'Source Code Pro', serif;">Hi, I'm Brendan Busey</h1>
-
-								<hr>
-
-								<p style="text-align: center;"><b> {{ subgreeting }}</b><p>
-
-								<hr>
-
-								<p>
-								I'm an alumni of <a href="http://www.wfu.edu/">Wake Forest University</a> with a Bachelor of Science in <a href="http://college.wfu.edu/cs/">Computer Science</a> and <a href="http://college.wfu.edu/math/">Mathematics</a> (that's me, on the right, taking a seflie with our University's president, Nathan O. Hatch).
-
-								<br><br>
-
-								I'm from Arlington, V.A., but lived the first few years of my life in Washington, D.C. Besides residing in the states, I've lived (while on vacation) in France, Italy, London, South Africa, Spain, and Zimbabwe.
-
-								<br><br>
-
-								My favorite season is summer and my favoriate food is Chinese (I love to use chopsticks!).  I am obsessed with anything running related, especially apperal and shoes by Nike, and <a href="https://www.latex-project.org/"> LaTeX</a>.
-
-								<br><br>
-
-								I took my first computer science course junior year of <a href="http://www.apsva.us/washingtonlee"> high school </a> and instnatly loved it! While at University, even though I tended to strictly write in <a href="http://www.tutorialspoint.com/cprogramming/c_overview.htm"> C </a> and <a href="http://www.cplusplus.com/"> C++</a>, I often find myself writing in HTML, CSS, and JavaScript. I've also worked with PHP, specifically the <a href="https://laravel.com/"> Laravel framework</a>, as well as <a href="http://getbootstrap.com/"> Twitter Bootstrap</a>, though I still consider myself a novice at Laravel. Even though I am the most fluent in C/C++, at the end of the day, I'll use whatever I have to get the job done.
-
-								<br><br>
-
-								While my favorite music is hip-hop, I enjoy Jazz as well as band and orchestral music. Even though I'm an OS X and all-around Unix aficionado, I do dabble (sometimes) in Windows.
-
-								<br><br>
-
-								When computers aren't doing my bidding,  you can find me discovering new hip-hop <a href="http://www.hotnewhiphop.com/songs/"> here </a> and <a href="http://www.hiphopengine.com/"> here</a>, learning more about  <a href="http://tex.stackexchange.com/">LaTeX</a>, improving my <a href="http://play.typeracer.com/"> typing</a> abilities, trying to keep pace with the world of <a href="http://www.flotrack.org/"> running</a>, or <a href="http://stackoverflow.com/">here</a>.
-
-								</p>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="about-me-photo"></div> <!--END OF ABOUT ME PHOTO-->
-
-				</div>
-
-			</section>
-
-			<section class="container-fluid" style="background-image: url(./images/Stars.jpg); height: 1025px;" ng-controller="MainController">
-
-				<div class="coder">
-
-					<div id="content">
-
-						<div class="coder-title"> {{ coder }}</div>
-
-						<br>
-
-						<div class="panel panel-default" id="content-panel">
-
-							<div class="panel-body">
-
-								<h1 style="text-align: center;">{{ c_plus_plus }}</h1>
-
-                                                      <br>
-
-                                                      <p>
-                                                        With <a href="http://www.cplusplus.com/"> C++ </a> being the language I am most fluent in, I enjoy keeping my skills sharp by working on <a href="https://github.com/busebd12"> personal projects</a>,  <a href="https://www.hackerrank.com/domains"> practice exercises and challenges</a>, and reading books such as <a href="http://www.amazon.com/C-Concurrency-Action-Practical-Multithreading/dp/1933988770"> C++ Concurrency in Action</a>, <a href="http://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215/ref=sr_1_1?s=books&ie=UTF8&qid=1463871303&sr=1-1&keywords=the+c+standard+library+a+tutorial+and+reference">The C++ Standard Library</a>, and <a href="http://www.amazon.com/C-Programming-Language-4th/dp/0321563840/ref=sr_1_1?s=books&ie=UTF8&qid=1463871234&sr=1-1&keywords=the+c+programming+language+4th+edition">The C++ Programming Language</a> to expand my knowledge of the language, to name a few. Unsurprisingly, <a href="https://github.com/cplusplus/draft">this</a> and <a href="https://github.com/isocpp/CppCoreGuidelines">this</a> are two of my favorite Github repositories.
-                                                      </p>
-
-                                                      <h1 style="text-align: center;"> {{ latex }}</h1>
-
-                                                      <br>
-
-                                                       <p>
-                                                          While learning <a href="https://www.latex-project.org/"> LaTeX</a> in order to write my <a href="https://github.com/busebd12/SeniorMathThesis/blob/master/MathThesis.pdf"> Senior Thesis in Mathematics</a>, I fell in love with it. Besides just the all-around amazing quality of output, there are packages for whatever your needs may be. And, now, I'm always looking for an excuse to use it. To that end, I fancy frequent trips to <a href="https://www.sharelatex.com/">ShareLaTeX</a>, <a href="https://en.wikibooks.org/wiki/LaTeX">WikiBooks for LaTeX</a>, and <a href="http://tex.stackexchange.com/">LaTeX Stack Exchange</a> to grow my knowledge base.
-                                                      </p>
-
-                                                      <h1 style="text-align: center"> {{ web_development }}</h1>
-
-                                                      <br>
-
-                                                      <p>
-                                                          During my time at <a href="http://www.wfu.edu/">Wake Forest</a>, I worked for <a href="http://1834wfu.com/">1834 Software</a>, Wake Forest University's student run software development firm doing full stack engineering, writing in HTML, CSS, JavaScript, PHP, and occasionally SQL to wok on sites such as <a href="http://wfuhitthebricks.com/">Wake Forest Hit The Bricks</a> and <a href="https://www.wakenshake.com/">Wake 'n Shake</a>. Now, my toolbox has expanded to include the Twitter Boostrap Framework and jQuery and I enjoy learning new languages and frameworks as well as increasing my proficiency with the ones I'm already familiar with.
-                                                      </p>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="flip-button">
-
-						<a href="https://github.com/busebd12"><button class="button hvr-pulse check-me-out-button-front">Check Me Out On Github</button></a>
-
-					</div>
-
-				</div>
-
-			</section>
-			
-			<section class="container-fluid" id="resume" style="background-image: url(./images/ConnectedBlueDots.png); height: 1500px; padding=0; margin=0;" ng-controller="MainController">
-
-				<h1 id="resume-title"> {{ resume }}</h1>
-
-				<div class="container-fluid" id="resume-wrapper">
-
-					<iframe id="resume-frame" src="https://drive.google.com/file/d/0B0p22HZyVGxhTjVqU1NaYWN6VDg/preview" width="800" height="1000"></iframe>
-
-					<br>
-
-					<br>
-
-					<p id=resume-download-link>You can also download a fresh copy <a href="https://drive.google.com/open?id=0B0p22HZyVGxhTjVqU1NaYWN6VDg">here</a></p>
-
-				</div>
-
-				<div class="row" id="contact-row">
-
-					<button class="btn btn-danger" type="button" id="contact-button" data-toggle="collapse" data-target="#collapse-contact-info" aria-expanded="false" aria-controls="collapse-contact-info">
-					{{ work_with_me }}
-
-					<br>
-
-					<i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i>
-					</button>
-
-					<div class="collapse" id="collapse-contact-info">
-
-						<div class="panel panel-default" id="contact-panel">
-
-							<br>
-
-							<div class="panel-body">
-
-								<p align="center"> {{ name }}</p>
-
-								<p align="center"> {{ location }}</p>
-
-								<p align="center"> {{ phone }}</p>
-
-								<a id="mail-icon" align="center" href="mailto:busebd12@wfu.edu"><i class="fa fa-envelope fa-4x" aria-hidden="true" style="margin-left: 55px;"></i></a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
-		</main>
-
-		<footer class="container-fluid" ng-controller="MainController">
-
-			<div class="row">
-
-				<div class="footer">
-
-					<div class="col-md-4" id="footer-left">
-
-						<p class="text-muted">
-
-							<a href="/">{{ home }}</a>
-
-							<span> |  </span>
-
-							<a href="https://github.com/busebd12/busebd12.github.io"> {{ this_site }}</a>
-
-							<span> | </span>
-
-							<a href="#about-me-content"> {{ about_me }}</a>
-
-							<span> | </span>
-
-							<a href="http://stackoverflow.com/users/3897435/busebd12"> {{ stackoverflow }}</a>
-
-						</p>
-
-					</div>
-
-					<div class="col-md-4" id="footer-middle">
-
-						<p class="text-muted">Made with <span class="red-heart">&hearts;</span> by Brendan Busey</p>
-
-					</div>
-
-					<div class="col-md-4" id="footer-right">
-
-						<a  id="navbar-stack-overflow-icon" href="http://stackoverflow.com/users/3897435/busebd12"><i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i></a>
-
-						<a  id="navbar-github-icon" href="https://github.com/busebd12"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-
-						<a id="navbar-linkedin-icon" href="https://www.linkedin.com/in/brendan-busey-03116a70"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-
-						<a id="navbar-twtter-icon" href="https://twitter.com/DaBusey"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-
-						<a id="navbar-mail-icon" href="mailto:busebd12@wfu.edu"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</footer>
 
 		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
@@ -331,11 +37,11 @@
 		<script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
 		<!-- Modules -->
-	    	<script src="./js/app.js"></script>
+	    <script src="./js/app.js"></script>
 
-	    	<!-- Controllers -->
-	    	<script src="./js/controllers/MainController.js"></script>
-
+	    <!-- Controllers -->
+	    <script src="./js/controllers/MainController.js"></script>
 	</body>
+
 
 </html>
