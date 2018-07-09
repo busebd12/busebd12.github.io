@@ -22,6 +22,11 @@
 	margin-top: 100px;
 }
 
+#photo
+{
+	background-image: url("../images/GraduationSelfie.jpg");
+}
+
 /*
 .about-me {
   width: 100%;
