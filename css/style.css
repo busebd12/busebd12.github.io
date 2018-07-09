@@ -3,6 +3,8 @@
 	background-image: url("../images/small-octagon-background.jpeg");
 
 	background-size: cover;
+
+	height: 1000px;
 }
 
 #name
@@ -18,8 +20,6 @@
 	margin-left: 550px;
 
 	margin-top: 100px;
-
-	height: 1000px;
 }
 
 /*
