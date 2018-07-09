@@ -44,7 +44,7 @@ body
 	background-image: url(./images/ConnectedBlueDots.png);
 }
 
-.about-me {
+/*.about-me {
   width: 100%;
   background-color: white; }
   .about-me .about-me-title {
@@ -170,6 +170,6 @@ footer .fa-stack-overflow, footer .fa-github, footer .fa-linkedin-square, footer
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+    transform: rotate(359deg); } }*/
 
 /*# sourceMappingURL=style.css.map */
