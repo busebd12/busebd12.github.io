@@ -71,6 +71,11 @@
 	height: 100px;
 }
 
+#leidos-card
+{
+	width: 50%;
+}
+
 /*
 .about-me {
   width: 100%;
