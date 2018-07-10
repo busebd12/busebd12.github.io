@@ -98,6 +98,8 @@
 #leidos-thumbnail
 {
 	float: right;
+
+	margin-top: -50px;
 }
 
 /*#leidos-card
