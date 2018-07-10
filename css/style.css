@@ -78,14 +78,19 @@
 	color: white;
 }
 
-#leidos-card
+#leidos-card-header
+{
+	background-color: transparent;
+}
+
+/*#leidos-card
 {
 	width: 30rem !important;
 
 	position: absolute;
 
 	margin-left: 600px;
-}
+}*/
 
 /*
 .about-me {
