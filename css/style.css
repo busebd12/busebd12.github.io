@@ -84,7 +84,7 @@
 
 	border-color: white;
 
-	width: 30rem !important;
+	width: 60rem !important;
 
 	position: absolute;
 
@@ -116,7 +116,7 @@
 
 #leidos-info
 {
-	color: white;
+	color: white !important;
 }
 
 /*
