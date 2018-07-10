@@ -58,6 +58,8 @@
 #about-me-card
 {
 	width: 50% !important;
+
+	float: center;
 }
 
 /*
