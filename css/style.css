@@ -42,7 +42,7 @@
 
 #about-me
 {
-	height: 525px;
+	height: 540px;
 }
 
 #greeting
@@ -59,7 +59,7 @@
 {
 	width: 50% !important;
 
-	float: center;
+	position: absolute;
 }
 
 /*
