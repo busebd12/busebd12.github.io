@@ -37,6 +37,8 @@
 
 #photo
 {
+	position: absolute;
+
 	width: 100%;
 }
 
