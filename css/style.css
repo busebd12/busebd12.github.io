@@ -80,7 +80,7 @@
 
 #leidos-card-header
 {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 /*#leidos-card
