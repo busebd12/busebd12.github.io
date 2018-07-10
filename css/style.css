@@ -86,7 +86,7 @@
 
 #leidos-card
 {
-	width: 30rem;
+	width: 30rem !important!
 }
 
 #leidos-top
