@@ -93,7 +93,9 @@
 
 #leidos-software-engineer
 {
-	text-align: left;
+	position: absolute;
+
+	margin-top: 50px;
 }
 
 #leidos-at-sign
