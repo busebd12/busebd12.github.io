@@ -55,6 +55,11 @@
 	text-align: center;
 }
 
+#about-me-card
+{
+	width: 50%;
+}
+
 /*
 .about-me {
   width: 100%;
