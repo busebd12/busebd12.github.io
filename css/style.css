@@ -45,6 +45,16 @@
 	height: 1000px;
 }
 
+#greeting
+{
+	text-align: center;
+}
+
+#about-me-header
+{
+	text-align: center;
+}
+
 /*
 .about-me {
   width: 100%;
