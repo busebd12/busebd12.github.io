@@ -68,7 +68,14 @@
 {
 	background-image: url("../images/ConnectedBlueDots.png");
 
-	height: 100px;
+	height: 1000px;
+}
+
+#experience-title
+{
+	text-align: center;
+
+	color: white;
 }
 
 /*
