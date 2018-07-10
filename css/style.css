@@ -42,7 +42,7 @@
 
 #about-me
 {
-	height: 540px;
+	height: 550px;
 }
 
 #greeting
@@ -60,6 +60,8 @@
 	width: 50% !important;
 
 	position: absolute;
+
+	margin-left: 500px;
 }
 
 /*
