@@ -80,7 +80,7 @@
 
 #leidos-card
 {
-	background-color: transparent !important;
+	background: none;
 
 	border-color: white;
 
@@ -93,9 +93,7 @@
 
 #leidos-software-engineer
 {
-	position: absolute;
-
-	margin-top: 5px;
+	color: white;
 }
 
 #leidos-at-sign
