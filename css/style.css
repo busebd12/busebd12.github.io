@@ -81,6 +81,8 @@
 #leidos-card
 {
 	background-color: transparent !important;
+
+	border-color: white;
 }
 
 /*#leidos-card
