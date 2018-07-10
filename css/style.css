@@ -98,22 +98,14 @@
 
 #leidos-at-sign
 {
-	position: absolute;
-
-	margin-left: 200px;
+	color: white;
 }
 
 #leidos-thumbnail
 {
-	position: absolute;
-
 	height: 75px;
 
 	width: 75px;
-
-	margin-top: -95px;
-
-	margin-left: 1500px;
 }
 
 #leidos-info
