@@ -87,13 +87,10 @@
 #leidos-card
 {
 	width: 30rem !important;
-}
 
-#leidos-top
-{
-	height: 100px !important;
+	position: absolute;
 
-	width: 150px !important;
+	margin-left: 400px;
 }
 
 /*
