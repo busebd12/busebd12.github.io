@@ -85,6 +85,21 @@
 	border-color: white;
 }
 
+#leidos-software-engineer
+{
+	text-align: left;
+}
+
+#leidos-at-sign
+{
+	text-align: center;
+}
+
+#leidos-thumbnail
+{
+	float: right;
+}
+
 /*#leidos-card
 {
 	width: 30rem !important;
