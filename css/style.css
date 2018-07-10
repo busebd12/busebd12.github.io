@@ -64,6 +64,13 @@
 	margin-left: 425px;
 }
 
+#experience
+{
+	background-image: url("../images/ConnectedBlueDots.png");
+
+	height: 100px;
+}
+
 /*
 .about-me {
   width: 100%;
