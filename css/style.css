@@ -97,14 +97,15 @@
 
 #leidos-thumbnail
 {
-
 	position: absolute;
-
-	margin-top: -60px;
 
 	height: 75px;
 
 	width: 75px;
+
+	margin-top: -60px;
+
+	margin-left: 500px;
 }
 
 /*#leidos-card
