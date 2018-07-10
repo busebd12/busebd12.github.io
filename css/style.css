@@ -83,6 +83,12 @@
 	background-color: transparent !important;
 
 	border-color: white;
+
+	width: 30rem !important;
+
+	position: absolute;
+
+	margin-left: 600px;
 }
 
 #leidos-software-engineer
@@ -108,14 +114,10 @@
 	margin-left: 1500px;
 }
 
-/*#leidos-card
+#leidos-info
 {
-	width: 30rem !important;
-
-	position: absolute;
-
-	margin-left: 600px;
-}*/
+	color: white;
+}
 
 /*
 .about-me {
