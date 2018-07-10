@@ -78,7 +78,7 @@
 	color: white;
 }
 
-#leidos-card
+#leidos-card, #noblis-card
 {
 	background: none;
 
@@ -91,24 +91,24 @@
 	margin-left: 350px;
 }
 
-#leidos-software-engineer
+#leidos-software-engineer, #noblis-software-engineer
 {
 	color: white;
 }
 
-#leidos-at-sign
+#leidos-at-sign, #noblis-at-sign
 {
 	color: white;
 }
 
-#leidos-logo
+#leidos-logo, #noblis-logo
 {
 	height: 75px;
 
 	width: 75px;
 }
 
-#leidos-info
+#leidos-info, #noblis-info
 {
 	color: white !important;
 }
