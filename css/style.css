@@ -207,6 +207,10 @@
 #resume-download-link
 {
 	color: white;
+
+	position: absolute;
+
+	margin-left: 100px;
 }
 
 /*
