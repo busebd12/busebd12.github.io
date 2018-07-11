@@ -127,7 +127,7 @@
 {
 	background-image: url("../images/RedDots.png");
 
-	height: 1000px;
+	height: 1500px;
 }
 
 #technical-toolbox-title
@@ -137,12 +137,12 @@
 	color: white;
 }
 
-#languages-proficient, #languages-experienced
+#languages-proficient, #languages-experienced, #other
 {
 	width: 40% !important;
 }
 
-#languages-title
+#languages-title, #other-title
 {
 	text-align: center !important;
 }
@@ -161,6 +161,15 @@
 	position: absolute;
 
 	margin-top: 400px;
+
+	margin-left: 475px;
+}
+
+#other
+{
+	position: absolute;
+
+	margin-top: 700px;
 
 	margin-left: 475px;
 }
