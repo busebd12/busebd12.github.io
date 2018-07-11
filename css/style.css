@@ -123,6 +123,13 @@
 	color: white !important;
 }
 
+#technical-toolbox
+{
+	background-image: url("../images/RedDots.png");
+
+	height: 1000px;
+}
+
 /*
 .about-me {
   width: 100%;
