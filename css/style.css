@@ -147,6 +147,15 @@
 	text-align: center !important;
 }
 
+#languages-proficient
+{
+	position: absolute;
+
+	margin-top: 15px;
+
+	margin-left: 475px;
+}
+
 /*
 .about-me {
   width: 100%;
