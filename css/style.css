@@ -194,7 +194,7 @@
 
 	margin-top: 30px;
 
-	margin-left: 475px;
+	margin-left: 500px;
 }
 
 #resume-google-docs
@@ -204,13 +204,16 @@
 	height: 800px;
 }
 
-#resume-download-link
+#download-link-wrapper
 {
-	color: white;
-
 	position: absolute;
 
 	margin-left: 100px;
+}
+
+#resume-download-link
+{
+	color: white;
 }
 
 /*
