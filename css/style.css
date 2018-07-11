@@ -137,6 +137,11 @@
 	color: white;
 }
 
+#languages-list
+{
+	width: 60rem !important;
+}
+
 /*
 .about-me {
   width: 100%;
