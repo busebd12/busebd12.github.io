@@ -267,6 +267,11 @@
   line-height: 50px;
 }
 
+#mail-icon
+{
+	margin-top: 5px;
+}
+
 /*
 .about-me {
   width: 100%;
