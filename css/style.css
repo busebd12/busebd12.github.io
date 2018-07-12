@@ -319,6 +319,18 @@ footer #footer-left
 	white-space: nowrap;
 }
 
+footer #footer-middle
+{
+	font-size: 1.00em;
+
+	font-family: 'Source Code Pro', serif;
+
+	white-space: nowrap;
+
+	text-align: center;
+}
+
+
 /*
 footer #footer-right {
   font-size: 1.25em;
