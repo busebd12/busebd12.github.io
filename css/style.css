@@ -310,6 +310,8 @@
 
 footer #footer-left
 {
+	margin-left: 75px;
+
 	font-size: 1.00em;
 
 	font-family: 'Source Code Pro', serif;
