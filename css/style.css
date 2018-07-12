@@ -342,13 +342,61 @@
 	color: red;
 }
 
+#footer-right
+{
+	font-size: 1.00em;
+
+	font-family: 'Source Code Pro', serif;
+
+	white-space: nowrap;
+}
+
+footer .fa-stack-overflow, footer .fa-github, footer .fa-linkedin-square, footer .fa-twitter-square, footer .fa-envelope
+{
+	color: black;
+}
+
+footer .fa-stack-overflow:hover, footer .fa-github:hover, footer .fa-linkedin-square:hover, footer .fa-twitter-square:hover, footer .fa-envelope:hover
+{
+	animation: fa-spin 1s infinite linear;
+}
+
+@-webkit-keyframes fa-spin
+{
+	0%
+	{
+		-webkit-transform: rotate(0deg);
+
+		transform: rotate(0deg);
+	}
+
+	100%
+	{
+		-webkit-transform: rotate(359deg);
+
+		transform: rotate(359deg);
+	}
+}
+
+@keyframes fa-spin
+{
+	0%
+	{
+		-webkit-transform: rotate(0deg);
+
+		transform: rotate(0deg);
+	}
+
+	100%
+	{
+		-webkit-transform: rotate(359deg);
+
+		transform: rotate(359deg);
+	}
+}
 
 /*
-footer #footer-right {
-  font-size: 1.25em;
-  font-family: 'Source Code Pro', serif;
-  text-align: center;
-  margin-top: 15px; }
+footer 
 footer #footer-middle {
   font-size: 1.25em;
   font-family: 'Source Code Pro', serif;
