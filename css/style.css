@@ -224,9 +224,9 @@
   left: 50%;*/
   width: 250px;
   height: 200px;
-  margin: -150px;
-  margin-left: 600px;
-  margin-top: 500px;
+  /*margin: -150px;*/
+  margin-left: 700px;
+  margin-top: 700px;
   perspective: 500px;
 }
 
