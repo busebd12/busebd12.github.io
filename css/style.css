@@ -360,6 +360,11 @@ footer .fa-stack-overflow, footer .fa-github, footer .fa-linkedin-square, footer
 	color: black;
 }
 
+footer .fa-github, footer .fa-linkedin-square, footer .fa-twitter-square, footer .fa-envelope
+{
+	margin-left: 5px;
+}
+
 footer .fa-stack-overflow:hover, footer .fa-github:hover, footer .fa-linkedin-square:hover, footer .fa-twitter-square:hover, footer .fa-envelope:hover
 {
 	animation: fa-spin 1s infinite linear;
