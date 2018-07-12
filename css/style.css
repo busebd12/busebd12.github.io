@@ -303,6 +303,18 @@
 	margin-left: -30px;
 }
 
+footer #footer-left
+{
+	font-size: 1.25em;
+
+	font-family: 'Source Code Pro', serif;
+
+	text-align: center;
+	
+	margin-top: 20px;
+}
+
+/*
 footer #footer-right {
   font-size: 1.25em;
   font-family: 'Source Code Pro', serif;
@@ -315,11 +327,6 @@ footer #footer-middle {
   margin-top: 15px; }
 footer #footer-middle > p {
   margin-left: 50px; }
-footer #footer-left {
-  font-size: 1.25em;
-  font-family: 'Source Code Pro', serif;
-  text-align: center;
-  margin-top: 20px; }
 footer #footer-right > a {
   margin-left: 20px; }
 footer .red-heart {
