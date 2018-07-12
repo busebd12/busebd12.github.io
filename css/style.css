@@ -308,7 +308,7 @@
 	padding-top: 15px;
 }
 
-footer #footer-left
+#footer-left
 {
 	margin-left: 75px;
 
@@ -319,25 +319,25 @@ footer #footer-left
 	white-space: nowrap;
 }
 
-footer #footer-middle
+#footer-middle
 {
 	font-size: 1.00em;
 
 	font-family: 'Source Code Pro', serif;
 
 	white-space: nowrap;
-
-	text-align: center;
 }
 
-footer #footer-middle > p
+#footer-middle > p
 {
-	margin-left: 150px;
+	margin-left: 700px;
+
+	margin-top: -42px;
 }
 
-footer .red-heart
+.red-heart
 {
-	font-size: 120%;
+	font-size: 90%;
 	
 	color: red;
 }
