@@ -308,6 +308,8 @@ footer #footer-left
 	font-size: 1.25em;
 
 	font-family: 'Source Code Pro', serif;
+
+	white-space: nowrap;
 }
 
 /*
