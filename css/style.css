@@ -42,7 +42,7 @@
 
 #about-me
 {
-	height: 700px;
+	height: 875px;
 }
 
 #greeting
@@ -82,7 +82,7 @@
 {
 	background-image: url("../images/ConnectedBlueDots.png");
 
-	height: 1050px;
+	height: 1150px;
 }
 
 #experience-title
@@ -109,12 +109,12 @@
 
 #noblis-card
 {
-	margin-top: 375px;
+	margin-top: 400px;
 }
 
 #wake-1834-card
 {
-	margin-top: 625px;
+	margin-top: 680px;
 }
 
 #leidos-software-engineer, #noblis-software-engineer, #wake-1834-software-engineer
@@ -294,7 +294,7 @@
 {
 	color: white;
 
-	margin-top: 50px;
+	margin-top: 30px;
 
 	font-family: 'Source Code Pro', serif;
 }
