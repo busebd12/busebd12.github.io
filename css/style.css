@@ -330,6 +330,18 @@ footer #footer-middle
 	text-align: center;
 }
 
+footer #footer-middle > p
+{
+	margin-left: 150px;
+}
+
+footer .red-heart
+{
+	font-size: 120%;
+	
+	color: red;
+}
+
 
 /*
 footer #footer-right {
