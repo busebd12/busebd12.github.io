@@ -31,7 +31,7 @@
     <section class="container-fluid" id="about-me">
     	<br>
 
-    	<h1 id="greeting">Hi, I'm Brendan.</h1>
+    	<h1 id="greeting"></h1>
 
     	<br>
 
@@ -311,6 +311,12 @@ HTML, CSS, and PHP to design, engineer, and create both dynamic and static web s
 	<script>
 		new TypeIt('#name', {
 		strings: "Brendan Busey",
+		speed: 150,
+		autoStart: false
+		});
+
+		new TypeIt('#greeting', {
+		strings: "Hi, I'm Brendan.",
 		speed: 150,
 		autoStart: false
 		});
