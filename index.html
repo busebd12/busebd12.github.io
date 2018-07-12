@@ -18,13 +18,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" />
 
 	<script>
-		$(function()
-		{
-			new TypeIt('#greeting', {
-			strings: "Hi, I'm Brendan.",
-			speed: 50,
-			autoStart: false
-			});
+		new TypeIt('#name', {
+		strings: "Brendan Busey",
+		speed: 50,
+		autoStart: false
 		});
 	</script>
 
@@ -33,7 +30,7 @@
 
   <body>
     <section class="container-fluid" id="header">
-    	<h1 id="name">Brendan Busey</h1>
+    	<h1 id="name"></h1>
 
     	<div class="card img-fluid" id="photo-card">
     		<div class="card-body" id="photo-card-body">
@@ -45,7 +42,7 @@
     <section class="container-fluid" id="about-me">
     	<br>
 
-    	<h1 id="greeting"></h1>
+    	<h1 id="greeting">Hi, I'm Brendan.</h1>
 
     	<br>
 
